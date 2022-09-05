@@ -1,4 +1,7 @@
-enum logic_types {
+use std::cell::{Ref, RefCell};
+
+#[derive(Debug)]
+enum LogicTypes {
     or(),
     nor(),
     and(),
@@ -10,11 +13,20 @@ enum logic_types {
 }
 
 #[derive(Debug)]
-struct logic_node {
-    l_type: logic_types,
-    
+struct LogicNode<'a> {
+    l_type: LogicTypes,
+    inputs: Vec<RefCell<LogicNode<'a>>>,
+    outputs: Vec<RefCell<LogicNode<'a>>>,
+}
+
+impl LogicNode<'_>{
+    fn new() -> LogicNode<'static>{
+
+    }
 }
 
 fn main() {
     println!("Hello, world!");
+
+    let node0 = 
 }
