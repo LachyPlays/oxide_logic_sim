@@ -8,13 +8,13 @@ and novel cooperation support with git-like source control.
 Any features ticked are complete and tested. Any other condition will be placed as a note alongside the feature
 - Implement component editing :red_circle:
   - Implement editing frontend :red_circle:
-    - Implement simple code-based editing :red_circle
-    - Implement REPL-like editing :red_circle
-    - Implement logisim-like GUI
+    - Implement simple code-based editing :red_circle:
+    - Implement REPL-like editing :red_circle:
+    - Implement logisim-like GUI :red_circle:
 - Implement circuit debugging and logging :red_circle:
   - Implement simple terminal debugging of state :red_circle:
   - Implement ASCII circuit diagram :red_circle:
-  - Implement logisim-like GUI
+  - Implement logisim-like GUI :red_circle:
 - Implement simulation :red_circle:
   - Implement simple event-based simulation :red_circle:
     - Implement threading of simulation :red_circle:
