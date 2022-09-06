@@ -11,6 +11,9 @@ Any features ticked are complete and tested. Any other condition will be placed 
     - Implement simple code-based editing :red_circle:
     - Implement REPL-like editing :red_circle:
     - Implement logisim-like GUI :red_circle:
+      - Modernize GUI :red_circle:
+  - Implement sharing system :red_circle:
+  - Implement circuit optimization :red_circle:
 - Implement circuit debugging and logging :red_circle:
   - Implement simple terminal debugging of state :red_circle:
   - Implement ASCII circuit diagram :red_circle:
