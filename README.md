@@ -28,6 +28,6 @@ Any features ticked are complete and tested. Any other condition will be placed 
 
 ## Installation
 To install the program to your computer, first ensure that you have rust installed from [here](https://www.rust-lang.org/tools/install)
-1.'git clone -b main https://github.com/LachyPlays/oxide_logic_sim.git'
-2.'cd oxide_logic_sim'
-3.'cargo run'
+1.`git clone -b main https://github.com/LachyPlays/oxide_logic_sim.git`
+2.`cd oxide_logic_sim`
+3.`cargo run`
