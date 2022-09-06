@@ -25,3 +25,9 @@ Any features ticked are complete and tested. Any other condition will be placed 
   - Implement cache-optimized data structures :red_circle:
 - Implement custom components :red_circle:
 - Implement cooperative editing and simulation :red_circle:
+
+## Installation
+To install the program to your computer, first ensure that you have rust installed from [here](https://www.rust-lang.org/tools/install)
+1.'git clone -b main https://github.com/LachyPlays/oxide_logic_sim.git'
+2.'cd oxide_logic_sim'
+3.'cargo run'
